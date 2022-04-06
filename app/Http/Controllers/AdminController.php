@@ -16,7 +16,7 @@ class AdminController extends Controller
         $this->middleware('auth');
         $this->middleware('soloadmin', ['only' => ['index']]);
     }
-
+    // 
     /**
      * Show the application dashboard.
      *
